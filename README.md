@@ -15,4 +15,4 @@ Will end up looking like:
 * _stuff_20210409094142.pcap
 * (...)
 
-So, it will saving the basename + timestamp of the filename so you can intermix multiple sets of pcaps with the base name.
+So, it will save the basename + timestamp of the filename so you can intermix multiple sets of pcaps with the base name since each new set restarts at _00001_ and that will screw up the sort order when parsing the PCAP files or joining them with mergecap.exe.
